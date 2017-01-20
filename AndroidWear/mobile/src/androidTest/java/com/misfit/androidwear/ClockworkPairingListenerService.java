@@ -41,7 +41,6 @@ public class ClockworkPairingListenerService extends Service {
         super.onDestroy();
     }
 
-
     public void onMessageReceived(MessageEvent paramMessageEvent){
         Log.d(TAG,"onMessageReceived");
         if(paramMessageEvent.getPath().equals("ClockworkPairingPowerTests"));
