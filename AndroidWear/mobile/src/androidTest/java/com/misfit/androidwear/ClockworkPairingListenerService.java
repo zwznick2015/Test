@@ -33,7 +33,7 @@ public class ClockworkPairingListenerService extends Service {
         this.mClient = new GoogleApiClient.Builder(this).addApi(Wearable.API).build();
         this.mClient.connect();
     }
-        //hello world
+        //hello world from hometown
     public void onDestroy()
     {
         Log.d(TAG, "onDestroy");
